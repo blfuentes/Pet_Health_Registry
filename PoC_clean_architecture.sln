@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FBE1A061-BDB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2FA7BA60-DE80-4AA4-A84A-E2CB2D0B1398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Domain", "PoC_clean_architecture_Domain\PoC_clean_architecture.Domain.csproj", "{3300A935-6ED1-41CF-B6A8-B1C4DE563BA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Domain", "src\PoC_clean_architecture_Domain\PoC_clean_architecture.Domain.csproj", "{3300A935-6ED1-41CF-B6A8-B1C4DE563BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Infrastructure", "PoC_clean_architecture.Infrastructure\PoC_clean_architecture.Infrastructure.csproj", "{CBAA647C-C614-4D9A-A56E-A4CD0A3AD127}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Infrastructure", "src\PoC_clean_architecture.Infrastructure\PoC_clean_architecture.Infrastructure.csproj", "{CBAA647C-C614-4D9A-A56E-A4CD0A3AD127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Application", "PoC_clean_architecture.Application\PoC_clean_architecture.Application.csproj", "{FFD6CBB8-7DFD-4047-A0E2-CA33782677A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Application", "src\PoC_clean_architecture.Application\PoC_clean_architecture.Application.csproj", "{FFD6CBB8-7DFD-4047-A0E2-CA33782677A2}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "coc_clean_architecture.presentation", "coc_clean_architecture.presentation\", "{0AE2B168-B161-4218-98E9-76B8F58A519A}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "coc_clean_architecture.presentation", "src\coc_clean_architecture.presentation\", "{0AE2B168-B161-4218-98E9-76B8F58A519A}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_55233"
@@ -39,11 +39,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 		Directory.packages.props = Directory.packages.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Domain.Tests", "PoC_clean_architecture.Domain.Tests\PoC_clean_architecture.Domain.Tests.csproj", "{31C6A7D5-5AEA-451B-92A1-D736520A8D27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Domain.Tests", "test\PoC_clean_architecture.Domain.Tests\PoC_clean_architecture.Domain.Tests.csproj", "{31C6A7D5-5AEA-451B-92A1-D736520A8D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Application.Tests", "PoC_clean_architecture.Application.Tests\PoC_clean_architecture.Application.Tests.csproj", "{1E3BF77D-F663-4BCF-BFE8-5CF6E8C43BEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Application.Tests", "test\PoC_clean_architecture.Application.Tests\PoC_clean_architecture.Application.Tests.csproj", "{1E3BF77D-F663-4BCF-BFE8-5CF6E8C43BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Infrastructure.Tests", "PoC_clean_architecture.Infrastructure.Tests\PoC_clean_architecture.Infrastructure.Tests.csproj", "{B16B7A06-F169-482E-AB63-FC55E2AA59B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC_clean_architecture.Infrastructure.Tests", "test\PoC_clean_architecture.Infrastructure.Tests\PoC_clean_architecture.Infrastructure.Tests.csproj", "{B16B7A06-F169-482E-AB63-FC55E2AA59B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

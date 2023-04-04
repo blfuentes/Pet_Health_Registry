@@ -1,4 +1,4 @@
-namespace PoC_clean_architecture.Infrastructure.Tests
+namespace Pet_Health_Registry.Infrastructure.Tests
 {
     public class Tests
     {

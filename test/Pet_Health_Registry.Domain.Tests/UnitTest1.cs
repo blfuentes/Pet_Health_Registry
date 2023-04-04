@@ -1,4 +1,4 @@
-namespace PoC_clean_architecture.Application.Tests
+namespace Pet_Health_Registry.Domain.Tests
 {
     public class Tests
     {
